@@ -8,4 +8,3 @@ La página web de promoción de Ciberpink está diseñada para ser fácil de usa
 
 Este repositorio es un proyecto escolar y se ha desarrollado con la ayuda de un equipo de estudiantes. Esperamos que la página web de promoción de Ciberpink sea útil y atractiva para la comunidad escolar y que pueda contribuir al éxito de la papelería.
 
-//Prueba//
