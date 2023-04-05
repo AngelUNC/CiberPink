@@ -113,7 +113,7 @@ p{
     transition: background 0.5s;
 }
 
-.cart-img{
+.cartera-img{
   filter: invert(100%);
   -webkit-filter: invert(100%);
 }
@@ -197,7 +197,7 @@ h4{
     font-size: 14px;
 }
 
-.rating .fa{
+.estrellas .fa{
     color: #ffbf00
 }
 
@@ -206,7 +206,7 @@ h4{
 }
 
 .col-4 img:hover{
-    background: url(./techbg.jpg);
+    background: url(./menu.png);
 }
  
 .box-container .image-overlay {
