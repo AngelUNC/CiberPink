@@ -356,6 +356,25 @@ ul{
     filter: invert(100)
 }
 
+::-webkit-scrollbar {
+    width: 8px; /* ancho de la barra de desplazamiento */
+    border-radius: 7px; /* radio de la esquina */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #343541; /* color de fondo de la pista */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #6b6c7e; /* color de fondo del controlador */
+    border-radius: 8px; /* radio de la esquina */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #524a4a; /* color de fondo del controlador al pasar el mouse */
+  }
+  
+
 /* ------------ media query for menu -------------------- */
 
 @media only screen and (max-width: 800px){
