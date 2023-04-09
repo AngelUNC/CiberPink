@@ -11,7 +11,7 @@ Este repositorio es un proyecto escolar y se ha desarrollado con la ayuda de un 
 <h1 align="center">Hola 👋, Soy Angel Nava</h1>
 <h3 align="center">Me apasiona la Tecnologia</h3>
 
-- 🔭 I’m currently working on **CiberPink**
+- 🔭 Estoy trabajando en **CiberPink**
 
 
 <h3 align="left">Lenguajes y Herramentas q utilizo:</h3>
