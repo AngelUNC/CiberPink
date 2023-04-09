@@ -63,30 +63,12 @@ p{
     justify-content: space-around;   
 }
 
-/* .row {
-   display: flex;
-   flex-wrap: nowrap;
-   overflow-x: auto;
-   -webkit-overflow-scrolling: touch;
-   -ms-overflow-style: -ms-autohiding-scrollbar; 
-}
-
-.box-container {
-  flex: 0 0 auto; 
-} */
-
 .col-2{
-    flex-basis: 50%;
-    min-width: 300px;
+    padding: 40px;
+    flex-basis: 100%;
+    min-width: 500px;
 }
-
-/* .col-2 img{
-    max-width: 100%;
-    padding: 50px 0;
-    height: 450px;
-    /* margin-left: 20%; */
-    /* place-self: center;
-} */ 
+ 
 .center {
     display: block;
     margin-left: auto;
@@ -105,7 +87,7 @@ p{
 
 .btn-main{
     display: inline-block;
-    background: #210583;
+    background: #b64900;
     color: rgb(255, 255, 255);
     padding: 8px 30px;
     margin: 30px 0;
@@ -119,22 +101,11 @@ p{
 }
 
 .btn-main:hover{
-    background-color: #170653;
-
+    background-color: #ffd900;
 }
 
 .categories{
     margin: 60px 0;
-}
-
-.col-3{
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 30px;
-}
-
-.col-3 img{
-    width: 100%;
 }
 
 .small-container{
@@ -170,9 +141,8 @@ p{
 }
 
 .box-container {
-    height: 340px;
-    box-shadow: 0 8px 6px -6px rgba(104, 99, 99, 0.712);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
- /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    height: 370px;
+    box-shadow: 0 8px 6px -6px rgba(104, 99, 99, 0.712);
 }
 
 
@@ -278,12 +248,12 @@ h4{
     left: 80%;
   }
 
-/* google maps */
+/* Ubicacion de CiberPink en Google Maps */
  #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    height: 400px;  /* 400px de Altura */
+    width: 800px;  /* 800px de Ancho */
 }
-/* ----offer--- */
+/* ---- Fin de la Pagina --- */
 .offer{
     background-color: #000;
     margin-top: 80px;
@@ -295,13 +265,16 @@ h4{
     width: 32rem;
 }
 
-small{
-    color: #555
+.offer-img {
+    position: relative;
+    right: 10pc;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
-/* --------brands--------- */
-.brands{
-    margin: 100px auto;
+small{
+    color: #555
 }
 
 .col-5{
@@ -341,15 +314,6 @@ small{
     margin-bottom: 20px;
 }
 
-.footer-col-1{
-    flex-basis: 30%;
-}
-
-.footer-col-2{
-    flex: 1;
-    text-align: center;
-}
-
 .footer-col-2 img{
     width: 180px;
     margin-bottom: 20px;
@@ -381,7 +345,7 @@ ul{
     margin: 20px 0;
 }
 
-.copyright{
+.fin{
     text-align: center;
 }
 
