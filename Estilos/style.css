@@ -1,3 +1,7 @@
+:root {
+    --responsivo: "@media only screen and (max-width: 800px) { }";
+}
+
 *{
     margin:0;
     padding: 0;
@@ -356,33 +360,38 @@ ul{
     filter: invert(100)
 }
 
+
+/* Codigo Hecho por ChatGpt */
 ::-webkit-scrollbar {
-    width: 8px; /* ancho de la barra de desplazamiento */
-    border-radius: 7px; /* radio de la esquina */
+    width: 8px;
+    border-radius: 7px;
   }
   
   ::-webkit-scrollbar-track {
-    background: #343541; /* color de fondo de la pista */
+    background: #343541;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #6b6c7e; /* color de fondo del controlador */
-    border-radius: 8px; /* radio de la esquina */
+    background: #6b6c7e;
+    border-radius: 8px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #524a4a; /* color de fondo del controlador al pasar el mouse */
+    background: #524a4a;
   }
-  
 
-/* ------------ media query for menu -------------------- */
+/* Codigo Hecho por ChatGpt */
+
+
+
+/* ------------ Css Responsivo para Celular -------------------- */
 
 @media only screen and (max-width: 800px){
     nav ul{
         position: absolute;
         top: 70px;
         left: 0;
-        background: #333;
+        background: #ac1b1b00;
         width: 100%;
         overflow: hidden;
         transition: maxHeight 0.5s;
@@ -401,4 +410,13 @@ ul{
         display: block;
         cursor: pointer;
     }
+}
+
+@media only screen and (max-width: 800px) {
+/* Ubicacion de CiberPink en Google Maps */
+#map {
+    height: 200px;  /* 400px de Altura */
+    width: 400px;  /* 800px de Ancho */
+}
+/* ---- Fin de la Pagina --- */
 }
