@@ -409,6 +409,7 @@ ul{
 }
 
 @media only screen and (max-width: 800px) {
+
 /* Ubicacion de CiberPink en Google Maps */
 #map {
     height: 200px;  /* 400px de Altura */
