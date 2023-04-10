@@ -28,5 +28,14 @@
         ></script>
         <script src="https://cdn.jsdelivr.net/npm/tsparticles-path-polygon@2.3.3/tsparticles.path.polygon.min.js"></script>
         <script src="./js/404.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+              alert("Te has perdido, seras redirigido en 5 segundos");
+              setTimeout(function() {
+                window.location.href = "../../../index.html";
+              }, 5000); // 5000 ms = 5 segundos
+            });        
+        </script>
+    
     </body>
 </html>

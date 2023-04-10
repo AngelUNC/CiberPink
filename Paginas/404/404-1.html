@@ -87,7 +87,6 @@
     font-size: 15px;
     text-align: center;
     margin: 0 auto;
-    vertical-align: middle;
     display: block;
     margin-bottom: 40px;
     margin-top: 25px;
@@ -239,6 +238,14 @@
 };
 
 tsParticles.load("tsparticles", particles);
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+          alert("Te has perdido, seras redirigido en 5 segundos");
+          setTimeout(function() {
+            window.location.href = "../../../index.html";
+          }, 5000); // 5000 ms = 5 segundos
+        });        
     </script>
 
 </html>
