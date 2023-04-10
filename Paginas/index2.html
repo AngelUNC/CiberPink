@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Productos | CiberPink</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Estilo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Fuente Letra-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+  <!-- Estilo CSS -->
+  <link rel="icon" type="img/jpg" href="../img/icono (2).jpg"
+  <link rel="stylesheet" href="../Estilos/style2.css">
+</head>
+
+<body class="d-flex align-items-start flex-column">
+    <!-- Alerto de hasta arriba -->
+    <div class="alert alert-info  w-100 alert-dismissible fade show" role="alert">
+      <p style="font-size: 30px;">Aqui encontraras nuestro producto mas vendido!!!! :3</p>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <!-- Producto -->
+    <nav class="w-100 navbar align-self-start navbar-expand-lg navbar-light bg-light sticky-top">
+      <div>
+        <img class="navbar-brand" src="../img/index2/cuaderno.jpg" height="110px" width="65px" alt="">
+        <a class="navbar-brand" href="">Cuaderno Profesional Elegante</a>
+      </div>
+      <!-- Opciones -->
+      <ul class="removed mr-auto navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Mas Informacion
+          </a>
+          <div id="sections" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#nosirvexd">Informacion del Producto</a>
+            <a class="dropdown-item" href="#nosirve-x2">Elementos similares</a>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Buscar  -->
+      <form class="removed form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <!-- registro y  -->
+      <ul class="ml-2 navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="">
+            <div class="cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="cartItems" class="badge badge-light">0</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="row">
+      <!-- Carousel Images -->
+      <div class="col-md-7">
+        <!-- ADD YOUR CAROUSEL HERE -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../img/index2/cuaderno2.jpg" alt="First slide" style="height: 600px;">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index2/cuaderno3.jpg" alt="Second slide" style="height: 700px;"">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index2/cuaderno4.jpg" alt="Third slide" style="height: 600px;">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+
+        <!-- </div> -->
+      </div>
+
+      <!-- Main Product Information -->
+      <div class="col-md-5">
+
+        <h2>Cuaderno Profesional Elegante
+          <span class="badge badge-secondary">Nuevo</span>
+        </h2>
+        <p>Este cuaderno es el complemento perfecto para aquellos que buscan un toque de elegancia en sus notas.<br> Con una cubierta dura de cuero sintético, su diseño sencillo pero sofisticado en color negro o marrón oscuro le da un aspecto refinado. <br> Además, su tamaño de bolsillo hace que sea fácil de llevar a cualquier lugar.
+           <br> En el interior, encontrarás papel de alta calidad y con un acabado satinado que ofrece una superficie suave para escribir con cualquier tipo de pluma. <br> Las hojas están encuadernadas con una costura resistente para evitar que se desprendan.
+           <br> Este cuaderno es una excelente opción para tomar notas en reuniones de negocios, anotar pensamientos o para ser usado como diario personal.<br> Su elegancia es la combinación perfecta de estilo y funcionalidad para cualquier persona que desee agregar un toque de clase a su vida cotidiana.
+        <hr>
+        <h6>Precio</h6>
+        <p>$50 Pesos</p>
+
+        <!-- Form for adding to cart -->
+        <form id="quantityOfUnicornsForm">
+          <!-- SELECT QUANTITY DROPDOWN & ADD TO CART BUTTON HERE -->
+          <!-- <form> -->
+            <div class="form-row add-to-cart align-items-center">
+              <div class="col-12 my-1">
+                <label class="mr-sm-12" for="quantityOfUnicorns">Seleccione la Cantidad :3</label>
+              </div>
+              <div class="col-12 my-1 form-group">
+                <!-- <label class="mr-sm-12" for="inlineFormCustomSelect">Select a Quantity</label> -->
+                <select class="custom-select mr-sm-2 form-control" id="quantityOfUnicorns">
+                  <!-- <option selected>Choose...</option> -->
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="3">4</option>
+                  <option value="3">5</option>
+                </select>
+              </div>
+              <div class="col-12 my-1">
+                <button type="submit" class="btn btn-primary">Añadir al Carro</button>
+              </div>
+            </div>
+          <!-- </form> -->
+
+
+
+        </form>
+
+      </div>
+    </div>
+
+    <!-- Scrollspy connected to Dropdown Menu -->
+    <div data-spy="scroll" data-target="#sections" data-offset="0">
+
+      <!-- Product Information -->
+      <div class="row">
+        <div class="col-12">
+          <h4 id="product-info" class="section-header">Informacion del Producto</h4>
+
+          <!-- ADD PRODUCT INFORMATIOB TABS HERE -->
+          <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Descripcion</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Detalles</a>
+                
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p> <br> ¡Aprovecha ahora y lleva contigo este cuaderno elegante a un precio especial! :3 <br> </p>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <ul>
+                    <li>Tamaño: 15 cm de ancho x 21 cm de alto (tamaño A5)</li>
+                    <li>Material de la cubierta: Cuero sintético de alta calidad en color negro</li>
+                    <li>Número de páginas: 200 hojas (100 hojas)</li>
+                    <li>Tipo de papel: Papel de alta calidad de 80 gramos, satinado y sin ácido</li>
+                    <li>Encuadernación: Encuadernación cosida para mayor durabilidad</li>
+                    <li>Diseño de páginas: Cuadrícula de 5 mm en gris claro para escribir y dibujar con precisión</li>
+                </ul>
+              </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <script src="./app2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
