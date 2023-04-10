@@ -1,0 +1,27 @@
+@font-face{
+    font-family:'Font Awesome 6 Brands';
+    font-style:normal;
+    font-weight:400;
+    font-display:block;
+    src:url(../assets/fonts/fa-brands-400.woff2) 
+    format('woff2'),url(../assets/fonts/fa-brands-400.ttf) 
+    format('truetype')
+}
+
+.fa-brands{
+    font-family:'Font Awesome 6 Brands';
+    font-weight:400
+}
+
+.github:before{
+    content:'\f09b'
+}
+
+:root{
+    --background:#080808;
+    --selection:#33323233;
+    --text:#ced4da;
+    --texthov:#fff;
+    --accent:#653d3b9e;
+    --icons:#ced4da;
+}
